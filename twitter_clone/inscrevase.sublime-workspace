@@ -1,0 +1,370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"c",
+				"content\tAttr"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"my",
+				"mysql_query"
+			],
+			[
+				"id",
+				"id_usuario"
+			],
+			[
+				"btn",
+				"btn_seguir"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"panel",
+				"panel-body"
+			],
+			[
+				"panel-",
+				"panel-default"
+			],
+			[
+				"ret",
+				"retorno_get"
+			],
+			[
+				"em",
+				"email_existe"
+			],
+			[
+				"usuario",
+				"usuario_existe"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"sessi",
+				"session_start"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"mysql_",
+				"mysql_error"
+			],
+			[
+				"da",
+				"database"
+			],
+			[
+				"mysq",
+				"mysql_query"
+			],
+			[
+				"mys",
+				"mysql_query"
+			],
+			[
+				"pass",
+				"password"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n/** \n * As configurações básicas do WordPress.\n *\n * Esse arquivo contém as seguintes configurações: configurações de MySQL, Prefixo de Tabelas,\n * Chaves secretas, Idioma do WordPress, e ABSPATH. Você pode encontrar mais informações\n * visitando {@link http://codex.wordpress.org/Editing_wp-config.php Editing\n * wp-config.php} Codex page. Você pode obter as configurações de MySQL de seu servidor de hospedagem.\n *\n * Esse arquivo é usado pelo script ed criação wp-config.php durante a\n * instalação. Você não precisa usar o site, você pode apenas salvar esse arquivo\n * como \"wp-config.php\" e preencher os valores.\n *\n * @package WordPress\n */\n\n// ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //\n/** O nome do banco de dados do WordPress */\ndefine('DB_NAME', 'u122910028_wp');\n\n/** Usuário do banco de dados MySQL */\ndefine('DB_USER', 'u122910028_gg');\n\n/** Senha do banco de dados MySQL */\ndefine('DB_PASSWORD', 'gabriel');\n\n/** nome do host do MySQL */\ndefine('DB_HOST', 'localhost');\n\n/** Conjunto de caracteres do banco de dados a ser usado na criação das tabelas. */\ndefine('DB_CHARSET', 'utf8');\n\n/** O tipo de collate do banco de dados. Não altere isso se tiver dúvidas. */\ndefine('DB_COLLATE', '');\n\n/**#@+\n * Chaves únicas de autenticação e salts.\n *\n * Altere cada chave para um frase única!\n * Você pode gerá-las usando o {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}\n * Você pode alterá-las a qualquer momento para desvalidar quaisquer cookies existentes. Isto irá forçar todos os usuários a fazerem login novamente.\n *\n * @since 2.6.0\n */\ndefine('AUTH_KEY',         'altere cada chave para um frase única');\ndefine('SECURE_AUTH_KEY',  'altere cada chave para um frase única');\ndefine('LOGGED_IN_KEY',    'altere cada chave para um frase única');\ndefine('NONCE_KEY',        'altere cada chave para um frase única');\ndefine('AUTH_SALT',        'altere cada chave para um frase única');\ndefine('SECURE_AUTH_SALT', 'altere cada chave para um frase única');\ndefine('LOGGED_IN_SALT',   'altere cada chave para um frase única');\ndefine('NONCE_SALT',       'altere cada chave para um frase única');\n\n/**#@-*/\n\n/**\n * Prefixo da tabela do banco de dados do WordPress.\n *\n * Você pode ter várias instalações em um único banco de dados se você der para cada um um único\n * prefixo. Somente números, letras e sublinhados!\n */\n$table_prefix  = 'wp_';\n\n\n/**\n * Para desenvolvedores: Modo debugging WordPress.\n *\n * altere isto para true para ativar a exibição de avisos durante o desenvolvimento.\n * é altamente recomendável que os desenvolvedores de plugins e temas usem o WP_DEBUG\n * em seus ambientes de desenvolvimento.\n */\ndefine('WP_DEBUG', false);\n\n/* Isto é tudo, pode parar de editar! :) */\n\n/** Caminho absoluto para o diretório WordPress. */\nif ( !defined('ABSPATH') )\n\tdefine('ABSPATH', dirname(__FILE__) . '/');\n\t\n/** Configura as variáveis do WordPress e arquivos inclusos. */\nrequire_once(ABSPATH . 'wp-settings.php');\n",
+			"file": "/C/Gabriel/WordPress/wordpres-i-e-ii-materiais-alura/wordpress/wp-config-sample.php",
+			"file_size": 3099,
+			"file_write_time": 131372800132789126,
+			"settings":
+			{
+				"buffer_size": 3032,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Gabriel/WordPress/wordpres-i-e-ii-materiais-alura/wordpress/wp-settings.php",
+		"/C/Users/User/Desktop/estilo.css",
+		"/C/Users/User/Desktop/index.html",
+		"/C/Users/User/Downloads/Programa Futebol",
+		"/C/Users/User/Desktop/Bootstrap 4/index.html",
+		"/C/Users/User/Google Drive/Curso Técnico/Módulo 1/Lógica de Programação/Apresentação/Ball Battle-Desktop/index.html",
+		"/C/xampp/htdocs/twitter_clone/home.php",
+		"/C/Users/User/JavaFX_Adaptacao.html",
+		"/C/Users/User/Desktop/Plataforma de Cursos/index.html",
+		"/C/Users/User/Desktop/FXOne/src/application/Main.java",
+		"/C/Users/User/Desktop/Plataforma de Cursos/main.html",
+		"/C/Users/User/Desktop/Nova pasta/javafx_adaptacao/NewFXMain.class",
+		"/C/Users/User/JavaFX_Adaptacao.jnlp",
+		"/C/Users/User/Desktop/Nova pasta/style.css",
+		"/C/Users/User/Desktop/Nova pasta/index.html",
+		"/C/xampp/htdocs/twitter_clone/inscrevase.php",
+		"/C/xampp/htdocs/twitter_clone/registra_usuarios.php",
+		"/C/Users/User/Desktop/Java Como Programar - Deitel - 4a ed_pt-br.pdf.egt",
+		"/C/xampp/htdocs/twitter_clone/homepage.html",
+		"/C/xampp/htdocs/twitter_clone/procurar_pessoas.php",
+		"/C/xampp/htdocs/twitter_clone/index.php",
+		"/C/xampp/htdocs/twitter_clone/seguir.php",
+		"/C/xampp/htdocs/twitter_clone/deixar_seguir.php",
+		"/C/xampp/htdocs/twitter_clone/bd.class.php",
+		"/C/xampp/htdocs/twitter_clone/get_pessoas.php",
+		"/C/xampp/htdocs/twitter_clone/sair.php",
+		"/C/xampp/htdocs/twitter_clone/inclui_tweet.php",
+		"/C/xampp/htdocs/twitter_clone/get_tweet.php",
+		"/C/xampp/htdocs/twitter_clone/validar_acesso.php",
+		"/C/Users/User/Desktop/chart.html",
+		"/C/Users/User/Desktop/cascadingLists-master/index.html",
+		"/C/Users/User/Desktop/cascadingLists-master/gruntfile.js",
+		"/C/Users/User/Desktop/chart.txt",
+		"/C/xampp/htdocs/twitter_clone/s.py",
+		"/C/xampp/htdocs/twitter_clone/validar_acesso",
+		"/C/xampp/htdocs/twitter_clone/inscrevase.sublime-project"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\t\t\n",
+			">\n",
+			"\t\t\t\t<",
+			"1",
+			";\t",
+			"'];\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			">\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Gabriel/WordPress/wordpres-i-e-ii-materiais-alura/wordpress/wp-config-sample.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								978,
+								978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 325.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "inscrevase.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
