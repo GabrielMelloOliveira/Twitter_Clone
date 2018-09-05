@@ -1,16 +1,16 @@
 # Twitter Clone
 
-Esse projeto foi realizado em 2016 no curso Curso completo de Desenvolvimento Web - Crie 6 projetos (Udemy).
+This project was realized in 2016 in the course Complete course of Web Development - Create 6 projects (Udemy).
 
-Link do curso: https://www.udemy.com/curso-completo-do-desenvolvedor-web/
+Course Link: https://www.udemy.com/curso-completo-do-desenvolvedor-web/
 
 ## Recursos
 
-Nesse projeto foi desenvolvido um sistema clone do twitter, com funções como: 
+In this project a twitter clone system was developed, with functions such as:
 
- - Cadastro
+ - Register
  - Login
- - Seguir outros usuários
- - Publicar tweets
- - Ver tweets de outros usuários
- - E etc..
+ - Follow other users
+ - Publish tweets
+ - See other users' tweets
+ - And more..
